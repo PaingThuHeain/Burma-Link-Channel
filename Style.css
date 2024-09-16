@@ -1,0 +1,93 @@
+body {
+    background-color:black;
+}
+.GG{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   margin: 20px;
+}
+
+.place1{
+  float: left;
+}
+#logo{
+  width: 150px;
+  height: 150px;
+  float: inherit;
+}
+
+#logoText{
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  float: initial;
+  font-size: 0.8cm;
+}
+
+#draw{
+  height: 450px;
+}
+
+.place2{
+  width: 500px;
+  height: 400px;
+  padding: 5px;
+  position: absolute;
+  right: 200px;
+  top: 160px;
+  background-color:white;
+  color:black;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.place2 h1{
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.place2 p{
+  font-size: 1em;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.in{
+  width: 70%;
+  padding: 10px;
+  border-radius: 2px;
+  margin-left: 30px;
+  background-color:white;
+  color:black;
+}
+
+#cb{
+  margin-left: 270px;
+  margin-top: 20px;
+  accent-color: black;
+}
+
+#signbtn{
+  margin-left: 270px;
+  margin-top: 30px;
+  background-color: black;
+  border: none;
+  text-align: center;
+  padding: 15px 60px;
+  color: white;
+  cursor: pointer;
+}
+
+#signbtn:hover{
+  background-color: white;
+  color: black;
+}
+
+#link{
+  color: rgb(239, 94, 239);
+  text-decoration:none;
+  margin-left: 20px;
+}
+
+  
